@@ -1,8 +1,10 @@
 <script>
   /*import LeftAlignedExample from "./sections/LeftAlignedExample.svelte"; */
-  import TitleCardSection from "./sections/TitleCardSection.svelte";
+  import OpenningCardSection from "./sections/OpenningCardSection.svelte";
+  import TitleSection from "./sections/TitleSection.svelte";
 </script>
 
 <main>
-  <TitleCardSection/>
+  <OpenningCardSection />
+  <TitleSection />
 </main>

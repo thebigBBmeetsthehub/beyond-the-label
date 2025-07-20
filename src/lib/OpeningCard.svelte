@@ -1,7 +1,7 @@
 <script>
     let {title, title2} = $props();
     import { fade, fly } from "svelte/transition";
-    let titleCardIsVisible = $state(false);
+    let titleCardIsVisible = $state(true);
 
     const options = {
         threshold: 0.1,
