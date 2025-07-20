@@ -3,10 +3,10 @@
     import { onMount, onDestroy } from 'svelte';
 
     let { mainText, subText } = $props();
-    let unseenClimbIsVisible = $state(false);
+    let beyondTheLabelIsVisible = $state(true);
     let scrollProgressInSection = $state(0);
-    let stigmaTokenOpacity = $state(0);
-    let stigmaCulturalFitOpacity = $state(0);
+    let stigmaDiversityHireOpacity = $state(0);
+    let stigmaLessThanOpacity = $state(0);
     let sectionElement;
 
     const options = {
@@ -17,9 +17,9 @@
     const observeUnseenClimbSection = (entries) => {
         entries.forEach((entry) => {
             if (entry.isIntersecting && entry.intersectionRatio >= 0.1) {
-                unseenClimbIsVisible = true;
+                beyondTheLabelIsVisible = true;
             } else {
-                unseenClimbIsVisible = false;
+                beyondTheLabelIsVisible = false;
             }
         });
     };
@@ -52,12 +52,12 @@
             scrollProgressInSection = 1;
         }
 
-        if (unseenClimbIsVisible) {
-            stigmaTokenOpacity = scrollProgressInSection > 0.3 ? Math.min(1, (scrollProgressInSection - 0.3) * 3) : 0;
-            stigmaCulturalFitOpacity = scrollProgressInSection > 0.6 ? Math.min(1, (scrollProgressInSection - 0.6) * 3) : 0;
+        if (beyondTheLabelIsVisible) {
+            stigmaDiversityHireOpacity = scrollProgressInSection > 0.3 ? Math.min(1, (scrollProgressInSection - 0.3) * 3) : 0;
+            stigmaLessThanOpacity = scrollProgressInSection > 0.6 ? Math.min(1, (scrollProgressInSection - 0.6) * 3) : 0;
         } else {
-            stigmaTokenOpacity = 0;
-            stigmaCulturalFitOpacity = 0;
+            stigmaDiversityHireOpacity = 0;
+            stigmaLessThanOpacity = 0;
         }
     }
 
@@ -87,18 +87,18 @@
     use:observe={[observeUnseenClimbSection, options]}
     in:fly={{y: 200, duration: 2000}}
     out:fade>
-    {#if unseenClimbIsVisible}
+    {#if beyondTheLabelIsVisible}
         <div class="content">
             <h2 class="beyond-the-label-text"
                 style="transform: scale({0.8 + scrollProgressInSection * 0.2});">
                 {mainText}
             </h2>
-            <p class="text-2xl font-light text-gray-400 mt-4"
-               style="opacity: {unseenClimbIsVisible ? 1 : 0};">
+            <p class="beyond-the-label-sub-text"
+               style="opacity: {beyondTheLabelIsVisible ? 1 : 0};">
                 {subText}
             </p>
-            <p class="stigma-word token" style="opacity: {stigmaTokenOpacity};">Token</p>
-            <p class="stigma-word cultural-fit" style="opacity: {stigmaCulturalFitOpacity};">Cultural Fit</p>
+            <p class="stigma-word diversity-hire" style="opacity: {stigmaDiversityHireOpacity};">Diversity Hire</p>
+            <p class="stigma-word less-than" style="opacity: {stigmaLessThanOpacity};">Less Than</p>
         </div>
     {/if}
 </div>
@@ -124,6 +124,13 @@
         line-height: 1;
     }
 
+    .beyond-the-label-sub-text {
+        font-size: 2.5rem;
+        font-style: italic;
+        font-weight: 400;
+        color: #ad9249;
+    }
+
     .stigma-word {
         position: absolute;
         font-size: 3rem;
@@ -135,8 +142,15 @@
         text-shadow: 0 0 10px rgba(233, 69, 96, 0.5);
     }
 
-    .stigma-word.token { bottom: 10%; left: 50%; transform: translateX(-50%); }
-    .stigma-word.cultural-fit { top: 30%; left: 50%; transform: translateX(-50%); }
+    .stigma-word.diversity-hire { 
+        bottom: 10%; 
+        left: 50%; 
+    }
+
+    .stigma-word.less-than { 
+        top: 30%; 
+        left: 50%; 
+    }
 
     @media (max-width: 768px) {
         .stigma-word {
