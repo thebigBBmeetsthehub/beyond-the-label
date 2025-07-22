@@ -10,10 +10,9 @@
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
-    "highcharts": "^12.3.0",
-    "highcharts-drilldown": "^0.1.7",
     "svelte": "^5.28.1",
     "vite": "^6.3.5",
     "gh-page": "^6.3.0"
-  }
+  },
+  "homepage": "https://thebigbbmeetsthehub.github.io/beyond-the-label/"
 }
