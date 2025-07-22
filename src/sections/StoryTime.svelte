@@ -94,6 +94,11 @@
             width: 450px;
             height: 450px;
         }
+
+        .stats-image {
+            width: 500px;
+            height: 850px;
+        }
     </style>
 </head>
 <body class="min-h-screen text-white relative">
@@ -144,6 +149,11 @@
                 <h2 class="text-5xl md:text-6xl font-white mb-6">He remembered his lifelong friends beginning to distance themselves.</h2>
                 <h2 class="text-5xl md:text-6xl font-white mb-6">He remembered it all.</h2>
                 <h2 class="text-5xl md:text-6xl font-white mb-6">~~~</h2>
+                <img
+                        src="assets/STEMGraph.png"
+                        alt="Tution Help"
+                        class="stats-image"
+                    />
                 <p class="hero-paragraph animate-on-scroll">
                     College was a blur of textbooks and part-time jobs. He saw the statistics on how Black students received around 7% less help paying tution than their white peers.
                 </p>
