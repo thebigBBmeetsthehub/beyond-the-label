@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://thebigbbmeetsthehub.github.io/beyond-the-label/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,10 +11,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@highcharts/svelte": "^1.1.1",
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "gh-pages": "^6.3.0",
     "svelte": "^5.28.1",
-    "vite": "^6.3.5",
-    "gh-page": "^6.3.0"
-  },
-  "homepage": "https://thebigbbmeetsthehub.github.io/beyond-the-label/"
+    "vite": "^6.3.5"
+  }
 }
