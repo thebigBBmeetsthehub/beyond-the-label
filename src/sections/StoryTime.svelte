@@ -78,6 +78,7 @@
             opacity: 0;
             transform: translateY(20px);
             transition: opacity 1s ease-out 0.4s, transform 1s ease-out 0.4s;
+            padding: 20px;
         }
         .hero-paragraph.is-visible {
             opacity: 1;
@@ -147,22 +148,57 @@
                     College was a blur of textbooks and part-time jobs. He saw the statistics on how Black students received around 7% less help paying tution than their white peers.
                 </p>
                 <p class="hero-paragraph animate-on-scroll">
-                    Even with his good GPA, counselors pointed him towards trades and community college, while his white peers were encouraged towards Ivy League schools and top 25 institutions. 
+                    Many like him struggled to balance work and studies, a reality that often meant sacrificing opportunities for internships that his more affluent peers could do without issue. He worked harder to prove he belonged. To silence the judgmental eyes and words of his professors and peers, wondering, Is he really prepared? He graduated with honors. A degree in Computer Science. And entered a field where he was going to continue to be the only Black face in meetings.
                 </p>
                 <p class="hero-paragraph animate-on-scroll">
-                    Marcus was accepted into a local state school, a proud moment for his family. However, even as he packed his bags, he remembered the college fair in his junior year. 
+                    Years passed. Marcus slowly climbed. He saw Black colleagues leave the industry, burned out by the constant fight with the hierarchy and endless underestimation regarding the diversity hires. He saw the corporate board filled with white males. He saw that he was fighting a system where he was destined to fail.
                 </p>
                 <p class="hero-paragraph animate-on-scroll">
-                    Even with his good GPA, counselors pointed him towards trades and community college, while his white peers were encouraged towards Ivy League schools and top 25 institutions. 
+                    However, he still fought. Each promotion was not just a raise; it was a battle won. A battle won for himself, his family, and his black colleagues, who couldn't take the endless battles
+                </p>
+            </div>
+        </section>
+
+        <section id="hero-section" class="min-h-[calc(100vh-120px)] flex flex-col justify-center items-center text-center p-4 md:p-8">
+            <h1 class="hero-title animate-on-scroll mb-2">
+                Aisha Brown
+            </h1>
+
+            <div class="character-illustration animate-on-scroll">
+                <img
+                    src="assets/aishapic.png"
+                    alt="Aisha Brown"
+                    class="profile-image"
+                />
+            </div>
+
+            <p class="hero-paragraph animate-on-scroll">
+                Meanwhile, across the country in the city of aspiring dreamers (Los Angeles County), Aisha lay hunched over a pill of worn out textbooks. Her highschool was filled with dreams and talent, yet it was chronically underfinded and outdated. She watched as students from wealthier, whiter schools go into elite colleges with ease. While her and her peers were left to navigate the application process alone.
+            </p>
+            <p class="hero-paragraph animate-on-scroll">
+                She earned a scholarship to a prestigious university in California, a place where the palm trees swayed and the air was clear. But even here, the microaggressions didnt end. In her engineering classes, she was often mistaken for administrative staff, or her contributions were met with disregard. 
+            </p>
+        </section>
+
+        <section class="min-h-screen flex flex-col justify-center items-center p-4 md:p-8">
+            <div class="max-w-4xl mx-auto text-center animate-on-scroll">
+                <p class="hero-paragraph animate-on-scroll">
+                    She felt the pressure to represent, to be not just good, but flawless. Knowing that any mistake, word, or wrong move would be magnified, confirming unspoken biases.  
+                </p>
+                <h2 class="text-5xl md:text-6xl font-white mb-6">~~~</h2>
+                <p class="hero-paragraph animate-on-scroll">
+                    After graduation, Aisha landed a role at an areospace company in Los Angeles. The initial excitement quickly gave way to a familiar feeling. She was often the only Black woman in the room. She was often asked to lead "diversity initiatives" alongside her demanding role.
                 </p>
             </div>
         </section>
 
         <section class="min-h-screen flex flex-col justify-center items-center p-4 md:p-8">
             <div class="max-w-4xl mx-auto text-center animate-on-scroll">
-                <h2 class="text-5xl md:text-6xl font-black mb-6">A Legacy Forged</h2>
-                <p class="text-lg md:text-xl leading-relaxed">
-                    The dream became reality, a nation united under one banner. The sacrifices were immense, the journey arduous, but the legacy left behind was one of peace and prosperity, echoing through the ages. This is the culmination of a deeply emotional saga.
+                <p class="hero-paragraph animate-on-scroll">
+                    She heard the whispers. She watched as less experienced white colleagues, easily got promotions, while her own advancements felt like a labyrinth with no exit.
+                </p>
+                <p class="hero-paragraph animate-on-scroll">
+                    Years later on a crisp autumn evening, a national conference on racial equity in STEM brought them both to a bustling convention center in downtown Los Angeles. 
                 </p>
             </div>
         </section>
