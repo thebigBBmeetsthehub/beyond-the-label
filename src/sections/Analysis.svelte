@@ -2,15 +2,13 @@
     <div>
         <p>     At its core, the diversity hire stereotype implies that individuals from underrepresented groups, particularly Black/African Americans, are not genuinely qualified for their positions. It suggests that their race or identity, rather than their talent, dedication, and intelligence, were the primary factors in their hiring for a position or admission to college. This narrative is insulting, damaging self-confidence, and fostering imposter syndrome even in highly accomplished individuals like Aisha and Marcus.</p>
         <img
-            src="assets/degreestats.png"
-            alt="Degree Stats"
+            src="/assets/degreestats.png"  alt="Degree Stats"
             class="stats-image"
         />
         <p>The Black Wealth Data Center reveals a consistent and significant rise in Bachelor's degree or higher attainment for Black Americans, reaching 29.0% by 2023. This upward trajectory signifies immense effort and a commitment to education within the Black community. Concurrently, White Americans maintain a higher, though also rising, degree attainment rate of 42.3%.</p>
         <p>The diversity hire myth, if it held any truth, would suggest that this narrowing of the educational gap should mean that Black individuals are effortlessly securing roles at the expense of equally or more qualified White candidates. Yet, the reality painted by employment statistics tells a different narrative.</p>
         <img
-            src="assets/stem.png"
-            alt="STEM Stats"
+            src="/assets/stem.png"  alt="STEM Stats"
             class="stats-image"
         />
         <p>A closer look at STEM employment rates, especially for young professionals aged 25-34, entirely undermines the diversity hire rhetoric. The journey from a STEM degree to a STEM job presents considerable barriers for Black individuals. Black women, in particular, face disproportionate challenges, with their STEM employment rates languishing around 20-25%. Black men, too, struggle to secure STEM roles, with an employment rate of only about 37%. These figures showed no significant improvement between 2019 and 2021.</p>
