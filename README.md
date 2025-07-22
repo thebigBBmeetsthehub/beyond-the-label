@@ -1,3 +1,9 @@
+
+# Sources
+https://www.apa.org/topics/racism-bias-discrimination/types-stress
+http://eeoc.gov/prohibited-employment-policiespractices
+https://www.whitehouse.gov/presidential-actions/2025/01/ending-illegal-discrimination-and-restoring-merit-based-opportunity/
+
 # Svelte + Vite
 
 This template should help get you started developing with Svelte in Vite.
