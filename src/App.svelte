@@ -5,6 +5,7 @@
   import ClosingCardSection from "./sections/ClosingCardSection.svelte";
   import StoryTime from "./sections/StoryTime.svelte";
   import TwiterImages from "./sections/TwiterImages.svelte";
+  import Analysis from "./sections/Analysis.svelte";
 </script>
 
 <main>
@@ -12,5 +13,6 @@
   <TwiterImages/>
   <StoryTime/>
   <TitleSection/>
+  <Analysis/>
   <ClosingCardSection/>
 </main>
